@@ -1,0 +1,24 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.modal--cancel {
+  position: absolute;
+  right: 5rem;
+  top: 5rem;
+  height: 2.4rem !important;
+  width: 2.4rem !important;
+  cursor: pointer;
+}
+.modal > .add--note {
+  min-width: 20rem;
+}

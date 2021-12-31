@@ -1,0 +1,6 @@
+.notes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(0, 1fr));
+  margin-top: 4rem;
+}

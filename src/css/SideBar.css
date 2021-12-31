@@ -1,0 +1,27 @@
+.sidebar {
+  height: 100vh;
+  width: 20vw;
+  min-width: 15rem;
+  background-color: #fff;
+  box-shadow: 0.7px 0px 2rem rgb(204, 204, 204);
+  position: fixed;
+  top: 10vh;
+  left: 0;
+}
+.sidebar--item {
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.item--icon {
+  height: 2rem !important;
+  width: 2rem !important;
+  margin-right: 1rem;
+}
+.sidebar--item--active {
+  background-color: #eeeeee;
+  color: #236f21;
+}

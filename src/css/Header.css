@@ -1,0 +1,17 @@
+.header {
+  background-color: #fff;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0.7px 0px 2rem rgb(204, 204, 204);
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 3.6rem !important;
+  width: 3.6rem !important;
+  color: #236f21;
+  cursor: pointer;
+}
